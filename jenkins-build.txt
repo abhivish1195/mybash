@@ -1,0 +1,2 @@
+sudo docker build -t abhi/new:1.0 '/home/ubuntu/jenkins/workspace/workspace/git-build'
+sudo docker run -it -d -p 80:80 abhi/new:1.0
